@@ -1,0 +1,56 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: #333;
+    display:flex;
+	justify-content: center;
+	font-size: 5vh;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #400040;
+}
+th {
+    background-color: #0080ff;
+    color: white;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#voltar{
+	margin: 50px!important; 
+	padding: 10px;
+	background-color: #0080ff;
+	border-radius: 4px;
+	color: white;
+	cursor: pointer;
+
+}
+
+#voltar:hover{
+	text-decoration: none;
+	background-color: #0061c1; 
+	
+}
+
+#voltarSec{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
